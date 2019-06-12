@@ -1,7 +1,5 @@
 module RailsDesignSystemFramework
   class Configuration
-    def design_system_name
-      'default'
-    end
+    attr_accessor :design_system_name
   end
 end
